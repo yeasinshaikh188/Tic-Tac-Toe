@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #508C9B;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    margin-top: 5vmax;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+    justify-content: center;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.1rem rgb(0, 0, 2);
+    font-size: 10vmin;
+    color: #EF5A6F;
+    animation:  demo 14s ease-in-out 2s infinite alternate;
+    background-color: #ffffc7;
+
+}
+
+
+@keyframes demo {
+    0%{
+        /* background-color: #17153B;
+        color: white; */
+        border: 5px solid red;
+        color: green;
+    }25%{
+        /* background-color: chartreuse;
+        color: crimson; */
+        border: 5px solid green;
+        color: red;
+    }
+    50%{
+        /* background-color: #EF5A6F;
+        color: antiquewhite; */
+        border: 5px solid aqua;
+        color: blue;
+    }
+    90%{
+        /* background-color: green;
+        color: red; */
+        border: 5px solid yellow;
+        color: blueviolet;
+    }
+    100%{
+        /* background-color: yellow;
+        color: green; */
+        border: 5px solid purple;
+        color: #EF5A6F;
+    }
+}
+#reset-btn{
+    padding: 0.9rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #17153B;
+    color: #fff;
+}
+#new-btn{
+    padding: 0.9rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #17153B;
+    color: #fff;
+    margin: 20px;
+}
+.container-msg{
+    height: 30vmin;
+}
+.container-msg p{
+   font-weight: bold;
+   font-size: 50px;
+   color: gold;
+}
+
+.hide{
+    display: none;
+}
+.hide2{
+    display: none;
+}
