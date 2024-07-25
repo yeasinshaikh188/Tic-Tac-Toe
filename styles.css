@@ -84,7 +84,11 @@ body{
     margin: 20px;
 }
 .container-msg{
-    height: 30vmin;
+    height: 120vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .container-msg p{
    font-weight: bold;
@@ -95,6 +99,6 @@ body{
 .hide{
     display: none;
 }
-.hide2{
+/* .hide2{
     display: none;
-}
+} */
